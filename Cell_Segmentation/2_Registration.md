@@ -1,0 +1,1 @@
+# Brief Instruction on Manual Registration
