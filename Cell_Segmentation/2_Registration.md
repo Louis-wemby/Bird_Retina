@@ -35,32 +35,32 @@ The `<SN>.mRNA.png` image converted from the gene expression matrix contains the
 **v**. Output the registered image.
 
 ## 5. Example (Presented with Pictures)
-<p align="center">
+<div align="center">
   <img src="./Figures/D06050G5.mRNA.png" width="500">
   <br>
   <h3>Figure 1. The converted mRNA garyscale image containing spatial expression data</h3>
-</p>
+</div>
 
-<p align="center">
+<div align="center">
   <img src="./Figures/D06050G5_ssDNA.png" width="500">
   <br>
   <h3>Figure 2. The auto-registered ssDNA-staining tissue image (The original image is oversized so here is a clip)</h3>
-</p>
+</div>
 
-<p align="center">
+<div align="center">
   <img src="./Figures/track_lines.png" width="500">
   <br>
   <h3>Figure 3. A zoom in of track lines on mRNA grayscale image</h3>
-</p>
+</div>
 
-<p align="center">
+<div align="center">
   <img src="./Figures/registerd.png" width="500">
   <br>
   <h3>Figure 4. The final registered ssDNA-staining image</h3>
-</p>
+</div>
 
-<p align="center">
+<div align="center">
   <img src="./Figures/D06050G5_ssDNA.mRNA.png" width="500">
   <br>
   <h3>Figure 5. The output of registered image containing both spatial expression data and tissue structural information</h3>
-</p>
+</div>
