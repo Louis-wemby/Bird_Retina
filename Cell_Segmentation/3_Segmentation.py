@@ -13,11 +13,10 @@ warnings.filterwarnings('ignore')
 inputfile = sys.argv[1]
 outputfile = sys.argv[2]
 idname = sys.argv[3]
-sample = sys.argv[4]
-bs = sys.argv[5]
-ot = sys.argv[6]
-md = sys.argv[7]
-ed = sys.argv[8]
+bs = sys.argv[4]
+ot = sys.argv[5]
+md = sys.argv[6]
+ed = sys.argv[7]
 
 bs = int(bs)  # block size
 ot = float(ot)  # offset
@@ -55,4 +54,3 @@ cv2.imwrite(result_path, sobj.label)
 # save as scgem.csv format
 save_path = os.path.join(outputfile)
 sobj.save_scGEM(save_path = save_path, name = idname)
-
