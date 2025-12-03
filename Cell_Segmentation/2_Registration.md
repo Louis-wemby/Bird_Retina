@@ -24,38 +24,43 @@ The `<SN>.mRNA.png` image converted from the gene expression matrix contains the
 - Photo editors such as **Adobe Photoshop**.
 
 ## 4. Steps
-i. Load the `<SN>.mRNA.png` image and adjust brightness / exposure to make the **Track lines** visible and clear. (Track lines are the crossing lines on a Stereo-seq chip between adjacent spots, regions where no mRNAs are captured.)
+**i**. Load the `<SN>.mRNA.png` image and adjust brightness / exposure to make the **Track lines** visible and clear. (Track lines are the crossing lines on a Stereo-seq chip between adjacent spots, regions where no mRNAs are captured.)
 
-ii. Drag out rulers to align and anchor the reference track lines. (For accuracy, it it recommended that the rulers span two opposite corners of the tissue region.)
+**ii**. Drag out rulers to align and anchor the reference track lines. (For accuracy, it it recommended that the rulers span two opposite corners of the tissue region.)
 
-iii. Load the `<SN>_ssDNA_regist_tif` image, and roughly match the two graphs according to their relative locations on the panel. Common transforming methods inculde translation, rotation, mirroring, scaling, etc.
+**iii**. Load the `<SN>_ssDNA_regist_tif` image, and roughly match the two graphs according to their relative locations on the panel. Common transforming methods inculde translation, rotation, mirroring, scaling, etc.
 
-iv. Hide the reference image `<SN>.mRNA.png`, and then precisely register by slightly adjusting the position of `<SN>_ssDNA_regist_tif` until all the track lines of `<SN>_ssDNA_regist_tif` are approximately aligned. This way, the `<SN>_ssDNA_regist_tif` is successfully matched within a small margin of error.
+**iv**. Hide the reference image `<SN>.mRNA.png`, and then precisely register by slightly adjusting the position of `<SN>_ssDNA_regist_tif` until all the track lines of `<SN>_ssDNA_regist_tif` are approximately aligned. This way, the `<SN>_ssDNA_regist_tif` is successfully matched within a small margin of error.
 
-v. Output the registered image.
+**v**. Output the registered image.
 
 ## 5. Example (Presented with Pictures)
-<p align="center">
+<div style="text-align: center;">
   <img src="./Figures/D06050G5.mRNA.png" width="500">
-  *Figure 1. The converted mRNA garyscale image containing spatial expression data*
-</p>
+  <br>
+  <h3>Figure 1. The converted mRNA garyscale image containing spatial expression data</h3>
+</div>
 
-<p align="center">
+<div style="text-align: center;">
   <img src="./Figures/D06050G5_ssDNA.png" width="500">
-  *Figure 2. The auto-registered ssDNA-staining tissue image (The original image is oversized so here is a clip)*
-</p>
+  <br>
+  <h3>Figure 2. The auto-registered ssDNA-staining tissue image (The original image is oversized so here is a clip)</h3>
+</div>
 
-<p align="center">
+<div style="text-align: center;">
   <img src="./Figures/track_lines.png" width="500">
-  *Figure 3. A zoom in of track lines on mRNA grayscale image*
-</p>
+  <br>
+  <h3>Figure 3. A zoom in of track lines on mRNA grayscale image</h3>
+</div>
 
-<p align="center">
+<div style="text-align: center;">
   <img src="./Figures/registerd.png" width="500">
-  *Figure 4. The final registered ssDNA-staining image*
-</p>
+  <br>
+  <h3>Figure 4. The final registered ssDNA-staining image</h3>
+</div>
 
-<p align="center">
+<div style="text-align: center;">
   <img src="./Figures/D06050G5_ssDNA.mRNA.png" width="500">
-  *Figure 1. The output of registered image containing both spatial expression data and tissue structural information*
-</p>
+  <br>
+  <h3>Figure 1. The output of registered image containing both spatial expression data and tissue structural information</h3>
+</div>
