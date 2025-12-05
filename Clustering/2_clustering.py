@@ -1,3 +1,5 @@
+## Clustering & Visualization (Spatial Map)
+
 import os
 import anndata
 import warnings
