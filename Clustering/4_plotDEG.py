@@ -73,3 +73,8 @@ adata = sc.read_h5ad(h5ad_in)
 adata.X = adata.layers['log1p'].copy()
 degRun(adata, prefix, 0.8)
 QC_violin(adata, "leiden_0.8", f"{prefix}_leiden_0.8", "figures/")
+
+# Print top DEGs
+degs = sc.get.rank_genes_groups_df(adata, group='_', key='DEGsFilt_res{r}')
+degs=degs.dropna()
+degs.head()
